@@ -2,6 +2,14 @@ require 'spec_helper'
 
 describe PagesController do
 	render_views
+	
+	
+	describe "GET 'signin'" do
+    it "should be successful" do
+      get 'signin'
+      response.should be_success
+    end
+  end
 
   describe "GET 'home'" do
     it "should be successful" do

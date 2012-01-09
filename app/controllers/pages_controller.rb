@@ -1,4 +1,8 @@
 class PagesController < ApplicationController
+
+  def signin
+  end
+  
   def home
   end
 
