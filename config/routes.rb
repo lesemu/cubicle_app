@@ -1,14 +1,15 @@
 CubicleApp::Application.routes.draw do
+
+  match '/register', :to => 'users#new'
+
+root :to => 'pages#home'
+match '/jobs', :to => 'pages#jobs'
+match '/workers', :to => 'pages#works'
+match '/signin', :to => 'pages#signin'
+match '/about', :to => 'pages#about'
+match '/terms', :to => 'pages#terms'
+match '/privacy', :to => 'pages#privacy'
   
-  get "pages/signin"
-  
-  get "pages/home"
-
-  get "pages/register"
-
-  get "pages/about"
-
-  get "pages/help"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

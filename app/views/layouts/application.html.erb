@@ -2,17 +2,7 @@
 <html>
 <head>
   <title><%= title %></title>
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->    
-    
-    <%= stylesheet_link_tag 'print',  :media => 'print' %>
-   	<%= stylesheet_link_tag 'custom', :media => 'screen' %>
-    
-    <!--[if lt IE 8]><%= stylesheet_link_tag 'ie' %><![endif]-->
-    
-   
- 
+  <%= render 'layouts/stylesheets' %>
   <%= csrf_meta_tags %>
 
 </head>
@@ -20,43 +10,12 @@
 
 <div id="content" class="container_12">
 	
-	<header class="grid_12 alpha">
+	<%= render 'layouts/header' %>
+	<div class="clearfix"></div>
 	
-		
+	<%= yield %>
 	
-		<div class="masthead">
-	
-			<h1>RUNAWAY CUBICLE</h1>
-			<h3>Connecting <a href="#">skilled workers</a> with <a href="#">the jobs</a> that need them.</h3>
-			
-			<p class="search">
-			Search Bar <INPUT value="" placeholder="Search...">
-			<input class="search-submit" value="" type="submit" />
-		</p>
-		</div>
-		<div class="clearfix"></div>
-		
-		
-	
-	</header>
-	
-<%= yield %>
-
-<footer class="grid_12">
-	
-	 <nav>
-	 	<ul>
-	 		<li><a href="#">about</a></li>
-	 		<li><a href="#">privacy policy</a></li>
-	 		<li><a href="#">terms</a></li>
-	 		<li><a href="#">blog</a></li>
-	 	
-	 	</ul>
-	 
-	 </nav>
-	
-	
-	</footer>
+	<%= render 'layouts/footer' %>
 </div>
 </body>
 </html>
