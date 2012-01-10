@@ -1,4 +1,7 @@
 CubicleApp::Application.routes.draw do
+  
+  get "pages/signin"
+  
   get "pages/home"
 
   get "pages/register"
