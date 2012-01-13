@@ -11,7 +11,7 @@ describe UsersController do
     
     it "should have the right title" do 
     get 'new'
-    response.should have_selector ("title", :content => "register")
+    response.should have_selector ("title", :content => 'register')
     end
   end
 

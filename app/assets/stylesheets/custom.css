@@ -148,7 +148,7 @@ h6 {
 	font-weight: 600;
 }
 
-header {min-height: 280px; padding-top: 20px; text-align: center;}
+header {min-height: 280px; text-align: center;}
 
 header a:hover { border-width: 0px;}
 
@@ -289,7 +289,7 @@ span.but-icon{
 /*===================================*/
 
 .but-gray{
-	background:url(images/but_gray_transp.png) top repeat-x;
+	background:url('../images/but_gray_transp.png') top repeat-x;
 	padding:6px;
 	font-weight:bold;	
 }
@@ -299,7 +299,7 @@ span.but-icon{
 }
 
 .but-gray a{
-	background:url(images/but_gray.png) top left repeat-x;
+	background:url('../images/but_gray.png') top left repeat-x;
 	color:#787878;	
 	text-shadow:0px 1px 0px #fff;	
 	border:1px solid #a5a9ab;
@@ -311,7 +311,7 @@ span.but-icon{
 }
 
 .but-gray a:hover{
-	background:url(images/but_gray_hover.png) top repeat-x;
+	background:url('../images/but_gray_hover.png') top repeat-x;
 	border:1px solid #878b8d;
 	color:#6a6a6a;
 }
@@ -320,7 +320,7 @@ span.but-icon{
 	display:inline-block;
 	border-left:1px solid #d6dcdf;
 	border-right:1px solid #d6dcdf;
-	background:url(images/but_gray_span.png) top repeat-x;
+	background:url('../images/but_gray_span.png') top repeat-x;
 	padding:0 4px 0 4px;
 }
 
@@ -340,7 +340,7 @@ a:hover span.but-text{
 .but-gray a span.but-icon-cont{
 	height:15px;
 	width:14px;
-	background:url(images/but_gray_icon.png) top no-repeat;
+	background:url('../images/but_gray_icon.png') top no-repeat;
 	display:block;
 	float:left;
 }
@@ -353,21 +353,21 @@ a:hover span.but-text{
 /* button see more */
 
 .see a span span.but-icon{
-	background:url(images/icon_see.png) top no-repeat;
+	background:url('../images/icon_see.png') top no-repeat;
 }
 
 .see a:hover span span.but-icon{
-	background:url(images/icon_see_hover.png) top no-repeat;
+	background:url('../images/icon_see_hover.png') top no-repeat;
 }
 
 /* button subscribe */
 
 .subscribe a span span.but-icon{
-	background:url(images/icon_subscribe.png) top no-repeat;
+	background:url('../images/icon_subscribe.png') top no-repeat;
 }
 
 .subscribe a:hover span span.but-icon{
-	background:url(images/icon_subscribe_hover.png) top no-repeat;
+	background:url('../images/icon_subscribe_hover.png') top no-repeat;
 }
 
 /* button send */
@@ -377,11 +377,11 @@ a:hover span.but-text{
 }
 
 .send a span span.but-icon{
-	background:url(images/icon_send.png) top no-repeat;
+	background:url('../images/icon_send.png') top no-repeat;
 }
 
 .send a:hover span span.but-icon{
-	background:url(images/icon_send_hover.png) top no-repeat;
+	background:url('../images/icon_send_hover.png') top no-repeat;
 }
 
 /* button del */
@@ -395,11 +395,11 @@ a:hover span.but-text{
 }
 
 .del a span span.but-icon{
-	background:url(images/icon_del.png) top no-repeat;	
+	background:url('../images/icon_del.png') top no-repeat;	
 }
 
 .del a:hover span span.but-icon{
-	background:url(images/icon_del_hover.png) top no-repeat;
+	background:url('../images/icon_del_hover.png') top no-repeat;
 }
 
 /*===================================*/
@@ -411,7 +411,7 @@ a:hover span.but-text{
 }
 
 .but-color-medium{
-	background:url(images/but_color_med_transp.png) top repeat-x;
+	background:url('../images/but_color_med_transp.png') top repeat-x;
 	padding:6px 7px 8px 7px;
 	font-weight:bold;
 }
@@ -435,71 +435,71 @@ a:hover span.but-text{
 /* button download */
 
 .download a{
-	background:url(images/but_down.png) top repeat-x;
+	background:url('../images/but_down.png') top repeat-x;
 	text-shadow:0px -1px 0px #587600;
 	border:1px solid #71813a;
 }
 
 .download a:hover{
-	background:url(images/but_down_hover.png) top repeat-x;
+	background:url('../images/but_down_hover.png') top repeat-x;
 }
 
 .download a span.but-icon{
-	background:url(images/icon_down.png) top no-repeat;
+	background:url('../images/icon_down.png') top no-repeat;
 }
 
 /* button buy now */
 
 .buynow a{
-	background:url(images/but_buy.png) top repeat-x;
+	background:url('../images/but_buy.png') top repeat-x;
 	text-shadow:0px -1px 0px #c68a00;
 	border:1px solid #a58c01;
 }
 
 .buynow a:hover{
-	background:url(images/but_buy_hover.png) top repeat-x;
+	background:url('../images/but_buy_hover.png') top repeat-x;
 }
 
 .buynow a span.but-icon{
-	background:url(images/icon_buy.png) top no-repeat;	
+	background:url('../images/icon_buy.png') top no-repeat;	
 }
 
 /* button join now */
 
 .joinnow a{
-	background:url(images/but_join.png) top repeat-x;
+	background:url('../images/but_join.png') top repeat-x;
 	text-shadow:0px -1px 0px #0034a4;
 	border:1px solid #29629d;
 }
 
 .joinnow a:hover{
-	background:url(images/but_join_hover.png) top repeat-x;
+	background:url('../images/but_join_hover.png') top repeat-x;
 }
 
 .joinnow a span.but-icon{
-	background:url(images/icon_join.png) top no-repeat;
+	background:url('../images/icon_join.png') top no-repeat;
 }
 
 /* button take */
 
 .take a{
-	background:url(images/but_take.png) top repeat-x;
+	background:url('../images/but_take.png') top repeat-x;
 	text-shadow:0px -1px 0px #000e2e;
 	border:1px solid #2a3844;
 }
 
 .take a:hover{
-	background:url(images/but_take_hover.png) top repeat-x;
+	background:url('../images/but_take_hover.png') top repeat-x;
 }
 
 .take a span.but-icon{
-	background:url(images/icon_take.png) top no-repeat;
+	background:url('../images/icon_take.png') top no-repeat;
 }
 
 /* button share */
 
 .share a{
-	background:url(images/but_share.png) top repeat-x;	
+	background:url('../images/but_share.png') top repeat-x;	
 	border:1px solid #71813a;
 	width:34px;
 	height:32px;
@@ -507,11 +507,11 @@ a:hover span.but-text{
 }
 
 .share a:hover{
-	background:url(images/but_share_hover.png) top repeat-x;
+	background:url('../images/but_share_hover.png') top repeat-x;
 }
 
 .share a span.but-icon{
-	background:url(images/icon_share.png) no-repeat;
+	background:url('../images/icon_share.png') no-repeat;
 	margin: 8px 0 0 8px;
 }
 
@@ -524,7 +524,7 @@ a:hover span.but-text{
 }
 
 .but-gray-medium{
-	background:url(images/but_gray_media_trasp.png) top repeat-x;
+	background:url('../images/but_gray_media_trasp.png') top repeat-x;
 	padding:4px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -540,7 +540,7 @@ a:hover span.but-text{
 	padding:4px 11px 5px 5px;
 	color:#787878;
 	text-shadow:0px 1px 0px #fff;
-	background:url(images/but_gray_media.png) top repeat-x;
+	background:url('../images/but_gray_media.png') top repeat-x;
 	border:1px solid #a4a9aa;
 }
 
@@ -556,53 +556,53 @@ a:hover span.but-text{
 /* button add new */
 
 .addnew a:hover{
-	background:url(images/but_addnew.png) top repeat-x;
+	background:url('../images/but_addnew.png') top repeat-x;
 	color:white;
 	text-shadow:0px -1px 0px #0050b6;
 	border:1px solid #215282;	
 }
 
 .addnew a span.but-icon{
-	background:url(images/addnew_icon.png) top no-repeat;
+	background:url('../images/addnew_icon.png') top no-repeat;
 }
 
 .addnew a:hover span.but-icon{
-	background:url(images/addnew_icon_hover.png) top no-repeat;
+	background:url('../images/addnew_icon_hover.png') top no-repeat;
 }
 
 /* button sign in */
 
 .signin a:hover{
-	background:url(images/but_signin.png) top repeat-x;
+	background:url('../images/but_signin.png') top repeat-x;
 	color:white;
 	text-shadow:0px -1px 0px #002140;
 	border:1px solid #2b3844;
 }
 
 .signin a span.but-icon{
-	background:url(images/icon_signup.png) top no-repeat;
+	background:url('../images/icon_signup.png') top no-repeat;
 }
 
 .signin a:hover span.but-icon{
-	background:url(images/icon_signup_hover.png) top no-repeat;
+	background:url('../images/icon_signup_hover.png') top no-repeat;
 }
 
 /* button log out */
 
 .logout a:hover{
-	background:url(images/but_logout.png) top repeat-x;
+	background:url('../images/but_logout.png') top repeat-x;
 	color:white;
 	text-shadow:0px -1px 0px #3c5062;
 	border:1px solid #3c5062;
 }
 
 .logout a span.but-icon{
-	background:url(images/logout_icon.png) top no-repeat;
+	background:url('../images/logout_icon.png') top no-repeat;
 	top:1px;
 }
 
 .logout a:hover span.but-icon{
-	background:url(images/logout_icon_hover.png) top no-repeat;
+	background:url('../images/logout_icon_hover.png') top no-repeat;
 	top:0px;
 }
 
@@ -613,19 +613,19 @@ a:hover span.but-text{
 }
 
 .vote a:hover{
-	background:url(images/but_vote.png) top repeat-x;
+	background:url('../images/but_vote.png') top repeat-x;
 	color:white;
 	text-shadow:0px -1px 0px #f14d8a;
 	border:1px solid #bb738d;
 }
 
 .vote a span.but-icon{
-	background:url(images/vote_icon.png) top no-repeat;
+	background:url('../images/vote_icon.png') top no-repeat;
 	top:2px;
 }
 
 .vote a:hover span.but-icon{
-	background:url(images/vote_icon_hover.png) top no-repeat;
+	background:url('../images/vote_icon_hover.png') top no-repeat;
 }
 
 .count-vote{
@@ -634,7 +634,7 @@ a:hover span.but-text{
 	top:-1px;
 	padding-right:0;
 	display:none;
-	background:url(images/count_vote.png) top left no-repeat;
+	background:url('../images/count_vote.png') top left no-repeat;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -645,7 +645,7 @@ a:hover span.but-text{
 	text-shadow:0px 1px 0px #fff;
 }
 .count-vote span{	
-	background:url(images/vote_numb_right.png) right top no-repeat;
+	background:url('../images/vote_numb_right.png') right top no-repeat;
 	padding: 5px 6px 0 11px;
 	height:27px;
 	display:block;
@@ -663,21 +663,21 @@ a:hover span.but-text{
 }
 
 .comment a:hover{
-	background:url(images/but_comment.png) top repeat-x;
+	background:url('../images/but_comment.png') top repeat-x;
 	color:white;
 	text-shadow:0px -1px 0px #e87b00;
 	border:1px solid #b58246;
 }
 
 .comment a span.but-icon{
-	background:url(images/comment_icon.png) top no-repeat;
+	background:url('../images/comment_icon.png) top no-repeat;
 	top:4px;
 	height:13px;
 	width:16px;
 }
 
 .comment a:hover span.but-icon{
-	background:url(images/comment_icon_hover.png) top no-repeat;
+	background:url('../images/comment_icon_hover.png') top no-repeat;
 	top:3px;
 }
 
@@ -690,7 +690,7 @@ a:hover span.but-text{
 }
 
 .but-color-big{
-	background:url(images/but_big_transp.png) top repeat-x;
+	background:url('../images/but_big_transp.png') top repeat-x;
 	padding:7px 7px 8px 7px;
 	-webkit-border-radius: 13px;
 	-moz-border-radius: 13px;
@@ -728,19 +728,19 @@ a:hover span.but-text{
 .appstore a{
 	color:#787878;
 	text-shadow:0px -1px 0px #3c5062;
-	background:url(images/but_appstore.png) top repeat-x;
+	background:url('../images/but_appstore.png') top repeat-x;
 	border:1px solid #3c5062;
 	color:white;	
 }
 
 .appstore a:hover{
-	background:url(images/but_appstore_hover.png) top repeat-x;
+	background:url('../images/but_appstore_hover.png') top repeat-x;
 	text-shadow:0px -1px 0px #00061e;
 	border:1px solid #364654;
 }
 
 .appstore a span.but-icon{
-	background:url(images/icon_appstore.png) top no-repeat;
+	background:url('../images/icon_appstore.png') top no-repeat;
 	margin-right:10px;
 	top:2px;
 }
@@ -750,20 +750,20 @@ a:hover span.but-text{
 .checkout a{
 	color:#787878;
 	text-shadow:0px -1px 0px #c81300;
-	background:url(images/but_check.png) top repeat-x;
+	background:url('../images/but_check.png') top repeat-x;
 	border:1px solid #92392a;
 	color:white;
 	padding-left: 5px;
 }
 
 .checkout a:hover{
-	background:url(images/but_check_hover.png) top repeat-x;
+	background:url('../images/but_check_hover.png') top repeat-x;
 	text-shadow:0px -1px 0px #a70700;
 	border:1px solid #833629;
 }
 
 .checkout a span.but-icon{
-	background:url(images/icon_check.png) top no-repeat;
+	background:url('../images/icon_check.png') top no-repeat;
 	margin-right:4px;
 	top:2px;
 	height:29px;
