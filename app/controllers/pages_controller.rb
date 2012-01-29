@@ -1,15 +1,11 @@
 class PagesController < ApplicationController
 
   def signin
-  	@title= "signin"
+  	@title= "Signin"
   end
   
   def home
-  	@title= "home"
-  end
-
-  def register
-  	@title= "Register"
+  	@title= "Home"
   end
 
   def about
@@ -18,6 +14,14 @@ class PagesController < ApplicationController
 
   def help
   	@title= "Help"
+  end
+  
+  def terms
+    @title= "Terms"
+  end
+  
+  def privacy
+    @title= "Privacy"
   end
 
 end
